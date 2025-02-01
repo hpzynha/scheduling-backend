@@ -36,3 +36,5 @@ router.post("/:id/send-whatsapp", async (req, res) => {
       res.status(500).send({ error: err.message });
     });
 });
+
+module.exports = router;
